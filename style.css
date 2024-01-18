@@ -155,60 +155,29 @@ float:left;
     margin: 20px 0 0 0;
 
  }
- #rodape img{
-    width: 40px;
- }
- .instagram{
-    width: 200px;
- }
-.instagram a{
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 5px;
-    transition: all 0.5s;
+#social-links{
+    display: flex;
+    gap: 40px;
+    padding: 24px;
+    font-size: 40px;
+    justify-content: center;
 }
-.instagram a h2{
+#social-links a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:16px ;
+    
+    
+}
+#social-links a:hover{
+    background-color: #59d4d2a5;
     color: black;
-}
-.instagram a:hover{
-    background-color: #59d4d2;
-}
-.linkedin{
-    width: 200px;
-}
-.linkedin a{
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 5px;
-    transition: all 0.5s;
-}
-.linkedin a h2{
-    color: black;
-}
-.linkedin a:hover{
-    background-color: #59d4d2;
+    border-radius: 50%;
+    transition:background 0.5s;
 }
 
-.local{
-    width: 200px;
-}
-.local a{
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 5px;
-    transition: all 0.5s;
-}
-.local a h2{
-    color: black;
-}
-.local a:hover{
-    background-color: #59d4d2;
-}
+
+
 
 
